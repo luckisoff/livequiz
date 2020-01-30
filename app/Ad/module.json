@@ -1,0 +1,13 @@
+{
+    "name": "Ad",
+    "alias": "ad",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "App\\Ad\\Providers\\AdServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

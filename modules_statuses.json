@@ -6,5 +6,11 @@
     "Category": true,
     "Video": true,
     "Tag": true,
-    "Channel": true
+    "Channel": true,
+    "Question": true,
+    "Option": true,
+    "Sponsor": true,
+    "QuestinSet": true,
+    "QuestionSet": true,
+    "Ad": true
 }

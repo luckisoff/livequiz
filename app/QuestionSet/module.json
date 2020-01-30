@@ -1,0 +1,13 @@
+{
+    "name": "QuestionSet",
+    "alias": "questionset",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "App\\QuestionSet\\Providers\\QuestionSetServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

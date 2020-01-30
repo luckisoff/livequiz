@@ -1,0 +1,13 @@
+{
+    "name": "Question",
+    "alias": "question",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "App\\Question\\Providers\\QuestionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

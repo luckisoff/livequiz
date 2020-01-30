@@ -1,0 +1,13 @@
+{
+    "name": "Sponsor",
+    "alias": "sponsor",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "App\\Sponsor\\Providers\\SponsorServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

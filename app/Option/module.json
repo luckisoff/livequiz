@@ -1,0 +1,13 @@
+{
+    "name": "Option",
+    "alias": "option",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "App\\Option\\Providers\\OptionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

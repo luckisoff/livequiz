@@ -23,34 +23,46 @@
               </a>
             </li>
 
+
+
             <li class="treeview" id="categories">
-                <a href="{{route('admin.category')}}">
-                    <i class="fa fa-suitcase"></i> <span>Categories</span> <i class="fa fa-angle-left pull-right"></i>
+                <a href="#">
+                    <i class="fa fa-heart"></i> <span>Sponsors</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li id="view-categories"><a href="{{route('admin.category')}}"><i class="fa fa-eye"></i>View Categories</a></li>
-                    <li id="add-category"><a href="{{route('admin.category.create')}}"><i class="fa fa-plus"></i>Add Category</a></li>
+                    <li id="view-videos"><a href="{{route('admin.sponsors')}}"><i class="fa fa-eye"></i>View Sponsor</a></li>
+                    <li id="add-video"><a href="{{route('admin.sponsor.create')}}"><i class="fa fa-plus"></i>Add Sponsor</a></li>
                 </ul>
             </li>
 
             <li class="treeview" id="categories">
-                <a href="{{route('admin.channels')}}">
-                    <i class="fa fa-television"></i> <span>Channels</span> <i class="fa fa-angle-left pull-right"></i>
+                <a href="#">
+                    <i class="fa fa-object-group"></i> <span>Quiz Group</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li id="view-videos"><a href="{{route('admin.channels')}}"><i class="fa fa-eye"></i>View Channels</a></li>
-                    <li id="add-video"><a href="{{route('admin.channel.create')}}"><i class="fa fa-plus"></i>Add Channel</a></li>
+                    <li id="view-videos"><a href="{{route('admin.questionsets')}}"><i class="fa fa-eye"></i>View Groups</a></li>
+                    <li id="add-video"><a href="{{route('admin.questionset.create')}}"><i class="fa fa-plus"></i>Add Groups</a></li>
                 </ul>
             </li>
 
             <li class="treeview" id="categories">
-                <a href="{{route('admin.videos')}}">
-                    <i class="fa fa-video-camera"></i> <span>Videos</span> <i class="fa fa-angle-left pull-right"></i>
+                <a href="#">
+                    <i class="fa fa-question"></i> <span>Questions</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li id="view-videos"><a href="{{route('admin.videos')}}"><i class="fa fa-eye"></i>View Videos</a></li>
-                    <li id="add-video"><a href="{{route('admin.video.create')}}"><i class="fa fa-plus"></i>Add Video</a></li>
-                    <li id="view-deleted-video"><a href="{{route('admin.video.deleted')}}"><i class="fa fa-trash"></i>View Deleted</a></li>
+                    <li id="view-videos"><a href="{{route('admin.questions')}}"><i class="fa fa-eye"></i>View Questiosn</a></li>
+                    <li id="add-video"><a href="{{route('admin.question.create')}}"><i class="fa fa-plus"></i>Add Question</a></li>
+                    <li id="add-video"><a href="{{route('admin.question.upload')}}"><i class="fa fa-upload"></i>Upload Questions</a></li>
+                </ul>
+            </li>
+
+            <li class="treeview" id="categories">
+                <a href="#">
+                    <i class="fa fa-bullhorn"></i> <span>Ads</span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li id="view-videos"><a href="{{route('admin.ads')}}"><i class="fa fa-eye"></i>View Ads</a></li>
+                    <li id="add-video"><a href="{{route('admin.ad.create')}}"><i class="fa fa-plus"></i>Add Ad</a></li>
                 </ul>
             </li>
 
